@@ -1,4 +1,8 @@
 
+body{
+    font-family: 'microsoft yahei', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /*banner-image*/
 #banner .banner-item:nth-child(1) .banner-img {
     background-image: url(../banner/img/about-us-banner.jpg);
@@ -175,10 +179,10 @@ div.flicking_con {
     transition: all 0.4s ease-in-out;
     padding:20px;
 }
-.team-person:hover .slideup_info  {
-    opacity: 0.9;
-}
-.team-person:hover .i-item-con-div  {
+.col-sm-6:hover .slideup_info  {
+     opacity: 0.9;
+ }
+.col-sm-6:hover .i-item-con-div  {
     opacity: 0;
 }
 
