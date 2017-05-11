@@ -8,6 +8,7 @@
     <meta name="description" content="xx画室—艺术教育机构"/>
     <meta name="keywords" content="xx画室—艺术教育，国画"/>
 
+    <link rel="icon" type="image/png" href="img/favicon.png" />
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
     <link href="css/index.css" type="text/css" rel="stylesheet"/>
 
@@ -361,6 +362,18 @@
 
 <script>
     $(function(){
+
+        var itemdiv = $(".team-person");
+        itemdiv.hover(function () {
+            $(this).addClass("hover").siblings().removeClass("hover");
+        }).hover(function () {
+        }, function () {
+            $(this).removeClass("hover");
+        });
+
+
+
+
         // 团队轮播-pc--手机端隐藏
         bannerRotate.bannerInit();
     })

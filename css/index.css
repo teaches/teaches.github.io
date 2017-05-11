@@ -153,7 +153,7 @@ div.flicking_con {
 
 .team-person {
     position: relative;
-    margin: 0 20px;
+    margin:20px;
 }
 
 .slideup_info p {
@@ -311,7 +311,7 @@ div.flicking_con {
 }
 footer{
     background-color: #666;
-    padding:1% 0;
+    padding:1%;
     color:#8F8F8F;
     text-align: center;
 }
