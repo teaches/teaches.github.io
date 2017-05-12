@@ -56,6 +56,16 @@ body{
 
 
 /*----------------------------*/
+
+@media (min-width: 767px) {
+    .box{
+        height:250px;
+    }
+    #baiduMap{
+        height:500px;
+    }
+}
+
 @media (max-width: 767px) {
     .col-div {
         margin-bottom: 30px;
@@ -80,6 +90,9 @@ body{
     }
     .tuhuanyuanjing-info{
         font-size: 13px;
+    }
+    #baiduMap{
+        height:250px;
     }
 }
 .team_textbox {
@@ -130,11 +143,7 @@ div.flicking_con {
     border-radius: 2px;
     padding: 18% 10%;
 }
-@media (min-width: 767px) {
-    .box{
-        height:250px;
-    }
-}
+
 
 
 .i-item-con{
