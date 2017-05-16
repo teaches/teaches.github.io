@@ -368,11 +368,7 @@
     }
 }
 
-@media (min-width: 992px) {
-    .navbar-nav{
-        font-size: 16px;
-    }
-}
+
 
 
 @media (max-width: 767px) {
